@@ -15,6 +15,7 @@ class LoginPageLocators:
 
 
 class ProductPageLocators:
+    SUCCESS_MESSAGES = (By.CSS_SELECTOR, "#messages > div")
     PRODUCT_NAME = (
         By.CSS_SELECTOR,
         "#content_inner > article > div.row > div.col-sm-6.product_main > h1",
