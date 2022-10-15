@@ -8,6 +8,7 @@ class BasePageLocators:
         By.CSS_SELECTOR,
         "#default > header > div > div > div.basket-mini > span > a",
     )
+    USER_ICON = (By.CSS_SELECTOR, ".icon-user")
 
 
 class MainPageLocators:
@@ -21,6 +22,7 @@ class LoginPageLocators:
     REGISTER_EMAIL = (By.CSS_SELECTOR, "#id_registration-email")
     REGISTER_PASSWORD = (By.CSS_SELECTOR, "#id_registration-password1")
     REGISTER_CONFIRM_PASSWORD = (By.CSS_SELECTOR, "#id_registration-password2")
+    REGISTER_BUTTON = (By.CSS_SELECTOR, 'button[name="registration_submit"]')
 
 
 class ProductPageLocators:
